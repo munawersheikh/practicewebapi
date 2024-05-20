@@ -6,7 +6,7 @@ namespace PracticeJenkinsAndWebApi
 
         public int TemperatureC { get; set; }
 
-        public int TemperatureF => 32 + (int)(TemperatureC / 0.3);
+        public int TemperatureF => 32 + (int)(TemperatureC / 0.55);
 
         public string? Summary { get; set; }
     }
