@@ -1,11 +1,6 @@
 pipeline {
     agent any
 
-    triggers {
-        // Trigger the pipeline when there is a push to the repository
-        pollSCM('H/5 * * * *')
-    }
-
     stages {
         stage('Checkout') {
             steps {
