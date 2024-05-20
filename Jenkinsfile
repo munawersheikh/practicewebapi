@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from Git
-                git url: 'https://your-git-repository-url.git', branch: 'DEV'
+                git url: 'https://github.com/munawersheikh/practicewebapi', branch: 'main'
             }
         }
 
